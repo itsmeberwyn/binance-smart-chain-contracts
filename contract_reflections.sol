@@ -317,10 +317,10 @@ contract Example is IBEP20, Auth {
     address DEAD = 0x000000000000000000000000000000000000dEaD;
     address ZERO = 0x0000000000000000000000000000000000000000;
 
-    string constant _name = "Example";
-    string constant _symbol = "EXA"; 
+    string constant _name = "Hello World";
+    string constant _symbol = "HW"; 
     uint8 constant _decimals = 9;
-    uint256 _totalSupply = 10 * 10**10 * 10**_decimals;
+    uint256 _totalSupply = 1000000;
 
     mapping (address => uint256) _balances;
     mapping (address => uint256) public BuyCooldownTimer;
